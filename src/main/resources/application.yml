@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /conciliacion
+spring:
+  application:
+    name: conciliacion
+  main:
+    banner-mode: "off"
+  jmx:
+    enabled: true
+  jpa:
+    show-sql: true
+  data:
+    mongodb:
+      uri: mongodb+srv://dbutec:Aa1234@utecpractice.0ptuhjq.mongodb.net/
+      database: expressnet_servicios
